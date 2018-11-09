@@ -23,7 +23,7 @@ public class HelloController {
 
 	@RequestMapping("/Support")
 	public String page3() {
-        return "999";
+        return "Support";
     }
 
 	
