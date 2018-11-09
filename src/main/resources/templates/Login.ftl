@@ -6,7 +6,7 @@
  </head>
  <body>
    <#include "navbar.ftl" />
-   <h1>This is Page 2</h1>
-  <p>What, you were expecting something awesome?</p>
+   <h1>This is Login Page</h1>
+  <p>In this page, the user can login into their account, either seller or buyer.</p>
  </body>
 </html>
