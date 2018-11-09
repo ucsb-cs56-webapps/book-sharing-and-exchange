@@ -13,17 +13,17 @@ public class HelloController {
 
 	@RequestMapping("/page1")
     public String page1() {
-        return "page1";
+        return "Category";
     }
 
 	@RequestMapping("/page2")
 	public String page2() {
-        return "page2";
+        return "Login";
     }
 
 	@RequestMapping("/page3")
 	public String page3() {
-        return "page3";
+        return "Support";
     }
 
 	
