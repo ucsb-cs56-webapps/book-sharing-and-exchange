@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Page 3</title>
+   <title>Support</title>
    <#include "head.ftl" />
  </head>
  <body>
