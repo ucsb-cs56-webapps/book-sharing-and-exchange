@@ -17,9 +17,9 @@
         Dropdown link
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="/Category">Page 1</a>
-        <a class="dropdown-item" href="/Login">Page 2</a>
-        <a class="dropdown-item" href="/Support">Page 3</a>
+        <a class="dropdown-item" href="/Category">Category</a>
+        <a class="dropdown-item" href="/Login">Login</a>
+        <a class="dropdown-item" href="/Support">Support</a>
       </div>
     </li>
   </ul>
