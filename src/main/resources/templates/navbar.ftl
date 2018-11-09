@@ -5,10 +5,13 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/page1">Page 1</a>
+      <a class="nav-link" href="/Category">Category</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/page2">Page 2</a>
+      <a class="nav-link" href="/Login">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/Support">Support</a>
     </li>
 
     <!-- Dropdown -->
