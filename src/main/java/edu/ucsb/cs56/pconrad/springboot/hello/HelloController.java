@@ -12,17 +12,17 @@ public class HelloController {
     }
 
 	@RequestMapping("/Category")
-    public String page1() {
+    public String Category() {
         return "Category";
     }
 
 	@RequestMapping("/Login")
-	public String page2() {
+	public String Login() {
         return "Login";
     }
 
 	@RequestMapping("/Support")
-	public String page3() {
+	public String Support() {
         return "Support";
     }
 
