@@ -11,19 +11,19 @@ public class HelloController {
         return "index";
     }
 
-	@RequestMapping("/page1")
+	@RequestMapping("/Category")
     public String page1() {
         return "Category";
     }
 
-	@RequestMapping("/page2")
+	@RequestMapping("/Login")
 	public String page2() {
         return "Login";
     }
 
-	@RequestMapping("/page3")
+	@RequestMapping("/Support")
 	public String page3() {
-        return "Support";
+        return "999";
     }
 
 	
