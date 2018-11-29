@@ -11,20 +11,13 @@ public class HelloController {
         return "index";
     }
 
-	@RequestMapping("/Category")
-    public String Category() {
-        return "Category";
+	@RequestMapping("/Publish")
+    public String Publish() {
+        return "Publish";
     }
 
 	@RequestMapping("/Login")
 	public String Login() {
         return "Login";
     }
-
-	@RequestMapping("/Support")
-	public String Support() {
-        return "Support";
-    }
-
-	
 }
