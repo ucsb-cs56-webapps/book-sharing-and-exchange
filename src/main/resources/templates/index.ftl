@@ -25,9 +25,9 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <h1 class="display-3">Welcome To Book Store</h1>
+          <p>This is a platform for student to exchange their books</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Sign up today &raquo;</a></p>
         </div>
       </div>
 
@@ -35,8 +35,8 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>list.get(0).ownerEmail</h2>
+            <p> list.get(0).price</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
@@ -58,7 +58,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017-2018</p>
+      <p>&copy; Company 2018-201</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
