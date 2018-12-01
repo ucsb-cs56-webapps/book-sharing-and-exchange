@@ -3,5 +3,5 @@
     {"bookName": "Data Structures and Algorithm Analysis in C++", "price": 25, "ownerEmail": "101@gmail.com"},
     {"bookName": "Head First Design Patterns", "price": 17, "ownerEmail": "102@outlook.com"},
     {"bookName": "Head First Java", "price": 17, "ownerEmail": "103@outlook.com"},
-    {"bookName": "Problem Solving with C++", "price": 19, "ownerEmail": "104@outlook.com"},
+    {"bookName": "Problem Solving with C++", "price": 19, "ownerEmail": "104@outlook.com"}
 ]
