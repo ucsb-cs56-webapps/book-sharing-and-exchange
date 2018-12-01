@@ -46,7 +46,6 @@ public class HelloController {
         params.put("Books", list);
 
         return new ModelAndView("index", params);
-
     }
 
 	@RequestMapping("/Publish")
