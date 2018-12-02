@@ -49,7 +49,7 @@
           		<jdkVersion>1.8</jdkVersion>
           		<!-- Use your own application name -->
 	  		<!-- at Heroku CLI, use heroku apps to list, or use Heroku Dashboard -->
-          		<appName>cucsb-cs56-book-sharing-and-exchange</appName> 
+          		<appName>book-sharing-and-exchange</appName> 
           		<processTypes>
             			<!-- Tell Heroku how to launch your application -->
             			<!-- You might have to remove the ./ in front   -->
