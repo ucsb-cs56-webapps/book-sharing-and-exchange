@@ -58,6 +58,11 @@ public class HelloController {
         return "Login";
     }
 
+    @RequestMapping("/bookDetail")
+    public String bookDetail() {
+        return "bookDetail";
+    }
+
     public static byte [] readByteDataFromResourceFile(String filename) throws java.io.IOException {
         java.io.InputStream in = new HelloController().getClass().getResourceAsStream(filename);	
         byte[] data = StreamUtils.copyToByteArray(in);
