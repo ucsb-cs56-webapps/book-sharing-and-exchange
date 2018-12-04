@@ -63,7 +63,7 @@
             <div class="col-xs-12 col-sm-8">
               <ul class="list-group">
                 <li class="list-group-item">$${Book.price}</li>
-                <li class="list-group-item">Time bought</li>
+                <li class="list-group-item">When it is bought</li>
                 <li class="list-group-item">Category </li>
                 <li class="list-group-item"><i class="fa fa-phone"></i> Owner's Phone </li>
                 <li class="list-group-item"><i class="fa fa-envelope"></i> ${Book.ownerEmail}</li>
