@@ -17,6 +17,8 @@
   </head>
 
   <body>
+    <#include "navbar.ftl" />
+    
     <form class="form-signin">
       <div class="text-center mb-4">
         <img class="mb-4" src="open-book.svg" alt="" width="72" height="72">
