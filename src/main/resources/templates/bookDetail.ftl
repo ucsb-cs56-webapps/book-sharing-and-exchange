@@ -9,7 +9,7 @@
 
 <div class="resume">
     <header class="page-header">
-    <h1 class="page-title">Book.bookBame</h1>
+    <h1 class="page-title">${Book.bookName}</h1>
   </header>
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
@@ -62,11 +62,11 @@
 
             <div class="col-xs-12 col-sm-8">
               <ul class="list-group">
-                <li class="list-group-item">Book.price</li>
+                <li class="list-group-item">$${Book.price}</li>
                 <li class="list-group-item">Time bought</li>
                 <li class="list-group-item">Category </li>
-                <li class="list-group-item"><i class="fa fa-phone"></i> Owner Phone </li>
-                <li class="list-group-item"><i class="fa fa-envelope"></i> Book.ownerEmail</li>
+                <li class="list-group-item"><i class="fa fa-phone"></i> Owner's Phone </li>
+                <li class="list-group-item"><i class="fa fa-envelope"></i> ${Book.ownerEmail}</li>
               </ul>
             </div>
           </div>
