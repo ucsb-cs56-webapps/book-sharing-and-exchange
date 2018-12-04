@@ -68,9 +68,9 @@
             <div class="col-xs-12 col-sm-8">
               <ul class="list-group">
                 <li class="list-group-item">$${Book.price}</li>
-                <li class="list-group-item">When it is bought</li>
-                <li class="list-group-item">Category </li>
-                <li class="list-group-item"><i class="fa fa-phone"></i> Owner's Phone </li>
+                <li class="list-group-item">[stub]When it was bought</li>
+                <li class="list-group-item">[stub]Category </li>
+                <li class="list-group-item"><i class="fa fa-phone"></i> [stub]Owner's Phone </li>
                 <li class="list-group-item"><i class="fa fa-envelope"></i> ${Book.ownerEmail}</li>
               </ul>
             </div>
@@ -80,13 +80,13 @@
       <div class="bs-callout bs-callout-danger">
         <h4>Description</h4>
         <p>
-         Here is the discription of this book.
+         [stub]Here is the discription of this book.
         </p>
       </div>
       <div class="bs-callout bs-callout-danger">
         <h4>Pictures</h4>
         <p>
-          More pictures of this book.
+          [stub]More pictures of this book.
         </p>
       </div>
 

@@ -50,7 +50,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2018-201</p>
+      <p>&copy; Company 2018-2019</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
