@@ -60,6 +60,11 @@ public class HelloController {
         return "Login";
     }
 
+    @RequestMapping("/SearchResult")
+	public String SearchResult() {
+        return "SearchResult";
+    }
+
     @RequestMapping(value="/bookID")
     public ModelAndView gitID(@RequestParam int bookID) throws IOException{
         byte [] jsonData = readByteDataFromResourceFile("/Books.json");
