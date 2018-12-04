@@ -4,8 +4,9 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="container">
 <#include "navbar.ftl" />
+<div class="container">
+
 
 <div class="resume">
     <header class="page-header">
