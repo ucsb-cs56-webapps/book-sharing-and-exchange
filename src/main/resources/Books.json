@@ -1,7 +1,7 @@
 [
-    {"bookName": "Data Structures and Other Guide using C++", "price": 20, "ownerEmail": "100@outlook.com"},
-    {"bookName": "Data Structures and Algorithm Analysis in C++", "price": 25, "ownerEmail": "101@gmail.com"},
-    {"bookName": "Head First Design Patterns", "price": 17, "ownerEmail": "102@outlook.com"},
-    {"bookName": "Head First Java", "price": 17, "ownerEmail": "103@outlook.com"},
-    {"bookName": "Problem Solving with C++", "price": 19, "ownerEmail": "104@outlook.com"}
+    {"id": 101, "bookName": "Data Structures and Other Guide using C++", "price": 20, "ownerEmail": "100@outlook.com"},
+    {"id": 102, "bookName": "Data Structures and Algorithm Analysis in C++", "price": 25, "ownerEmail": "101@gmail.com"},
+    {"id": 103, "bookName": "Head First Design Patterns", "price": 17, "ownerEmail": "102@outlook.com"},
+    {"id": 104, "bookName": "Head First Java", "price": 17, "ownerEmail": "103@outlook.com"},
+    {"id": 105, "bookName": "Problem Solving with C++", "price": 19, "ownerEmail": "104@outlook.com"}
 ]
