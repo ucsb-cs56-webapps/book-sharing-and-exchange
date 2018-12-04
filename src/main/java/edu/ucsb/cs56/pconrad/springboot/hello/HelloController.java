@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.io.File;
@@ -57,6 +59,20 @@ public class HelloController {
 	public String Login() {
         return "Login";
     }
+
+    @RequestMapping(value="/bookID")
+    public ModelAndView gitID(@RequestParam int bookID) throws IOException{
+        byte [] jsonData = readByteDataFromResourceFile("/Books.json");
+        ObjectMapper om = new ObjectMapper();
+        List<Book> list = om.readValue(jsonData, new TypeReference<List<Book>>(){});
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("Book", list.get(bookID));
+
+        return new ModelAndView("bookDetail", params);
+    }
+
+
 
     public static byte [] readByteDataFromResourceFile(String filename) throws java.io.IOException {
         java.io.InputStream in = new HelloController().getClass().getResourceAsStream(filename);	
