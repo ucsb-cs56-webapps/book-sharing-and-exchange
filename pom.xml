@@ -139,7 +139,7 @@
           <jdkVersion>1.8</jdkVersion>
           <!-- Use your own application name -->
 	  <!-- at Heroku CLI, use heroku apps to list, or use Heroku Dashboard -->
-          <appName>${project.herokuAppName}</appName> 
+          <appName>book-sharing-and-exchange</appName> 
           <processTypes>
             <!-- Tell Heroku how to launch your application -->
             <web>java $JAVA_OPTS -jar target/${project.artifactId}.jar --server.port=$PORT</web>

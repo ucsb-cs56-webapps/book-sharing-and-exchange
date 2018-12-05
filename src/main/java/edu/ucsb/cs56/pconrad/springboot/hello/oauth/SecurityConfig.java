@@ -48,7 +48,7 @@ public class SecurityConfig extends WebMvcConfigurerAdapter {
 
 		SecurityInterceptor loggedInLogin =
 			new SecurityInterceptor(config);	    
-		registry.addInterceptor(loggedInLogin).addPathPatterns("/Login");
+		registry.addInterceptor(loggedInLogin).addPathPatterns("/LoginWithGithub");
 
     }
 }
