@@ -24,11 +24,25 @@ target
 
 .DS_Store
 */.DS_Store
-.vscode
-.factorypath
-.settings
-.classpath
-.project
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+*~
+
+# Don't store keystore files
+*.jks
+
+localhost.json
+heroku.json
+secrets.json
+.classpath
+.project
+.settings/
+target/
+test-output/
+bin/
+*.iml
+.idea
+sp-metadata.xml
