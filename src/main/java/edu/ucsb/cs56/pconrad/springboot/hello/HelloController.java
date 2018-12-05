@@ -32,16 +32,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.Path;
 import java.nio.charset.Charset;
-import static java.nio.charset.StandardCharsets.UTF_8;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static java.nio.charset.StandardCharsets.UTF_8; 
 
 @Controller
 public class HelloController {
-    private Logger logger = LoggerFactory.getLogger(HelloController.class);
 
-    
     @RequestMapping("/")
     public ModelAndView index() throws IOException{
 
@@ -49,8 +44,6 @@ public class HelloController {
         ObjectMapper om = new ObjectMapper();
         List<Book> list = om.readValue(jsonData, new TypeReference<List<Book>>(){});
 
-        logger.info("list =" + list);
-        
         Map<String, Object> params = new HashMap<>();
         params.put("Books", list);
 

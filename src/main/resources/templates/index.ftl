@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Book Store</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-3">Welcome To Book Store</h1>
-          <p>This is a platform for students to exchange their books</p>
+          <p>This is a platform for student to exchange their books</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Sign up today &raquo;</a></p>
         </div>
       </div>
@@ -36,12 +36,9 @@
         <div class="row">
         <#list Books as book>
           <div class="col-md-4">
-            <h2><#if (book.bookName)??>${book.bookName}<#else>Name not found</#if></h2>
-            <p>${book.price}</p>
+            <h2>${book.bookName}</h2>
+            <p> $${book.price}</p>
             <p><a class="btn btn-secondary" href="/bookID?bookID=${book.id}" role="button">View details &raquo;</a></p>
-
-
-
           </div>
         </#list>
         </div>
@@ -53,7 +50,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2018-201</p>
+      <p>&copy; Company 2018-2019</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
