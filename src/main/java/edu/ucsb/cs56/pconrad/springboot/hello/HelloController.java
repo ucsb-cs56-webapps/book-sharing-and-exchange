@@ -67,6 +67,11 @@ public class HelloController {
         return "Login";
     }
 
+    @RequestMapping("/LoginWithGithub")
+	public String LoginWithGithub() {
+        return "Login";
+    }
+
     @RequestMapping(value="/bookID")
     public ModelAndView gitID(@RequestParam int bookID) throws IOException{
         byte [] jsonData = readByteDataFromResourceFile("/Books.json");
