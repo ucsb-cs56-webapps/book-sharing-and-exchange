@@ -69,7 +69,7 @@ public class HelloController {
 
     @RequestMapping("/LoginWithGithub")
 	public String LoginWithGithub() {
-        return "Login";
+        return "/";
     }
 
     @RequestMapping(value="/bookID")
