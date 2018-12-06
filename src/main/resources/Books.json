@@ -1,0 +1,8 @@
+[
+    {"id": 0, "bookName": "Data Structures and Other Guide using C++", "price": 20, "ownerEmail": "100@outlook.com"},
+    {"id": 1, "bookName": "Data Structures and Algorithm Analysis in C++", "price": 25, "ownerEmail": "101@gmail.com"},
+    {"id": 2, "bookName": "Head First Design Patterns", "price": 17, "ownerEmail": "102@outlook.com"},
+    {"id": 3, "bookName": "Head First Java", "price": 17, "ownerEmail": "103@outlook.com"},
+    {"id": 4, "bookName": "Problem Solving with C++", "price": 19, "ownerEmail": "104@outlook.com"},
+    {"id": 5, "bookName": "University Physics with Modern Physics", "price": 39, "ownerEmail": "105@outlook.com"}
+]
