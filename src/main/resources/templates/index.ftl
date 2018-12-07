@@ -37,7 +37,7 @@
         <#list Books as book>
           <div class="col-md-4">
             <h2><#if (book.bookName)??>${book.bookName}<#else>Name not found</#if></h2>
-            <p>${book.price}</p>
+            <p>$${book.price}</p>
             <p><a class="btn btn-secondary" href="/bookID?bookID=${book.id}" role="button">View details &raquo;</a></p>
           </div>
         </#list>
